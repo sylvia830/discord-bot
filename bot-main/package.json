@@ -1,0 +1,22 @@
+{
+  "name": "discord-task-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.16.1",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "dev": "nodemon index",
+    "lint": "prettier --write \"**/*.+(js|ts|json|sql|md)\"",
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  }
+}
